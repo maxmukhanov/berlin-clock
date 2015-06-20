@@ -16,6 +16,7 @@ public class Stack<T> {
             data = newData;
         }
 
+
         data[size++] = val;
 
     }
