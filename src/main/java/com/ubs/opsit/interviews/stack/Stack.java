@@ -16,6 +16,7 @@ public class Stack<T> {
             data = newData;
         }
 
+        //todo: bla bla
         data[size++] = val;
     }
 
