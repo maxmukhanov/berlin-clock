@@ -15,6 +15,7 @@ public class Stack<T> {
             System.arraycopy(data, 0, newData, 0, data.length);
             data = newData;
         }
+
         data[size++] = val;
 
     }
